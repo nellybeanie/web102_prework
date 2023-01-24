@@ -20,7 +20,16 @@ body {
 }
 
 .stats-container {
+    background: lightblue;
+    border: 2px solid red;
     display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
